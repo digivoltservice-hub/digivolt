@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Digivolt | Enterprise Digital Marketing</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:Segoe UI}
+body{background:#f4f6fb;color:#0f172a}
+
+/* HEADER */
+header{
+background:#0b1228;
+padding:16px 60px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+position:fixed;
+top:0;width:100%;
+z-index:1000;
+}
+.logo{font-size:26px;font-weight:700;color:#00e0ff}
+nav a{margin-left:25px;font-size:15px;color:#fff;text-decoration:none}
+
+/* SECTIONS */
+section{padding:120px 70px}
+.title{text-align:center;font-size:38px;color:#00e0ff;margin-bottom:60px}
+
+/* HERO */
+#home{
+min-height:100vh;
+display:flex;
+align-items:center;
+justify-content:center;
+text-align:center;
+background:linear-gradient(120deg,#0b1228,#111a3c);
+color:#fff;
+}
+.hero-text h1{
+font-size:54px;
+font-weight:900;
+margin-bottom:20px;
+}
+.hero-text p{
+font-size:20px;
+opacity:0.9;
+margin-bottom:35px;
+}
+.btn{
+background:#00e0ff;
+color:#000;
+padding:14px 40px;
+border-radius:40px;
+font-weight:700;
+text-decoration:none;
+}
+
+/* ABOUT */
+.about-wrap{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:50px;
+align-items:center;
+}
+.about-wrap img{
+width:100%;
+border-radius:20px;
+}
+#about p{
+font-size:18px;
+line-height:1.9;
+opacity:0.9;
+}
+
+/* SERVICES */
+.services{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+gap:40px;
+}
+
+.card{
+background:#ffffff;
+padding:45px 30px;
+border-radius:20px;
+text-align:center;
+box-shadow:0 20px 40px rgba(0,0,0,0.08);
+}
+
+/* LOGO */
+.service-logo{
+width:80px;
+margin:0 auto 30px auto;
+display:block;
+}
+
+/* TEXT */
+.card h3{
+color:#00a6c7;
+font-size:21px;
+margin-bottom:14px;
+}
+.card p{
+opacity:0.85;
+margin-bottom:24px;
+}
+
+/* SERVICE IMAGE */
+.service-image{
+width:100%;
+border-radius:16px;
+}
+
+/* CONTACT */
+form{
+max-width:600px;
+margin:auto;
+background:#ffffff;
+padding:45px;
+border-radius:20px;
+box-shadow:0 20px 40px rgba(0,0,0,0.08);
+}
+input,textarea{
+width:100%;
+padding:14px;
+margin:12px 0;
+border-radius:8px;
+border:1px solid #ccc;
+}
+button{
+background:#00e0ff;
+padding:14px;
+width:100%;
+font-weight:700;
+border:none;
+border-radius:40px;
+cursor:pointer;
+}
+
+/* FOOTER */
+footer{
+background:#0b1228;
+text-align:center;
+padding:20px;
+font-size:14px;
+color:#fff;
+}
+
+/* WHATSAPP */
+.whatsapp{
+position:fixed;
+bottom:20px;
+right:20px;
+background:#25D366;
+color:#fff;
+padding:14px 22px;
+border-radius:50px;
+font-weight:700;
+text-decoration:none;
+}
+
+/* RESPONSIVE */
+@media(max-width:900px){
+.about-wrap{grid-template-columns:1fr}
+section{padding:120px 30px}
+header{flex-direction:column}
+nav{margin-top:10px}
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<div class="logo">Digivolt</div>
+<nav>
+<a href="#home">Home</a>
+<a href="#about">About</a>
+<a href="#services">Services</a>
+<a href="#contact">Contact</a>
+</nav>
+</header>
+
+<section id="home">
+<div class="hero-text">
+<h1>Powering Enterprise Digital Growth</h1>
+<p>
+Digivolt delivers enterprise-grade digital marketing solutions designed to elevate brand equity,
+accelerate growth, and create enduring digital value.
+</p>
+<a class="btn" href="#contact">Consult With Us</a>
+</div>
+</section>
+
+<section id="about">
+<h2 class="title">About Digivolt</h2>
+<div class="about-wrap">
+<img src="https://images.unsplash.com/photo-1556761175-4b46a572b786">
+<div>
+<p>
+<strong>Digivolt</strong> is a luxury digital marketing agency headquartered in
+<strong>Indore, Madhya Pradesh</strong>, delivering enterprise-level digital solutions
+for brands that demand excellence, precision, and measurable performance.
+<br><br>
+We partner with organizations to build refined digital ecosystems that scale sustainably
+in competitive global markets.
+</p>
+</div>
+</div>
+</section>
+
+<section id="services">
+<h2 class="title">Our Services</h2>
+<div class="services">
+
+<div class="card">
+<img class="service-logo" src="https://cdn-icons-png.flaticon.com/512/3062/3062634.png">
+<h3>Enterprise SEO</h3>
+<p>Search authority and scalable organic growth.</p>
+<img class="service-image" src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40">
+</div>
+
+<div class="card">
+<img class="service-logo" src="https://cdn-icons-png.flaticon.com/512/3126/3126517.png">
+<h3>Performance Marketing</h3>
+<p>ROI-focused paid media execution.</p>
+<img class="service-image" src="https://images.unsplash.com/photo-1551288049-bebda4e38f71">
+</div>
+
+<div class="card">
+<img class="service-logo" src="https://cdn-icons-png.flaticon.com/512/733/733547.png">
+<h3>Social Media Strategy</h3>
+<p>High-impact brand engagement across platforms.</p>
+<img class="service-image" src="https://images.unsplash.com/photo-1515378791036-0648a3ef77b2">
+</div>
+
+<div class="card">
+<img class="service-logo" src="https://cdn-icons-png.flaticon.com/512/1006/1006771.png">
+<h3>Brand & Website Experience</h3>
+<p>Premium digital experiences that convert.</p>
+<img class="service-image" src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d">
+</div>
+
+</div>
+</section>
+
+<section id="contact">
+<h2 class="title">Contact Digivolt</h2>
+<form>
+<input placeholder="Your Name" required>
+<input type="email" placeholder="Your Email" required>
+<input placeholder="Your Phone">
+<textarea rows="4" placeholder="Your Message"></textarea>
+<button>Send Enquiry</button>
+<p style="margin-top:20px;text-align:center;opacity:0.8">
+📞 +91 9893093634<br>
+📧 digivolt.service@gmail.com<br>
+📍 Indore, Madhya Pradesh
+</p>
+</form>
+</section>
+
+<a class="whatsapp" href="https://wa.me/919893093634" target="_blank">WhatsApp Us</a>
+
+<footer>
+© 2026 Digivolt Digital Marketing Agency | All Rights Reserved
+</footer>
+
+</body>
+</html>
